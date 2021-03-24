@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Coolors Docs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="https://imgur.com/UNrboIn.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/docs.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container-fluid header-view">
+        <div class="logo-view">
+            <img src="https://imgur.com/UNrboIn.png" width="40" height="40" alt="">
+            <span id="id1">&nbsp;Coolors</span>
+            <span id="id2">DOCS</span>
+        </div>
+        <div class="buy-btn-view">
+            <a href="https://codecanyon.net/item/coolors/29312947" target="_blank">Purchase Now</a>
+        </div>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <ul class="list-goup">
+            <li><a href="">Purchase</a></li>
+            <li><a href="">What you will get ?</a></li>
+            <li><a href="">Xcode Modifications</a></li>
+              <ul>
+                <li><a href="">Installation</a></li>
+              </ul>
+          </ul>
+        </div>
+        <div class="col-sm-9 main">
+          <div class="col-12" id="purchase">
+            <small style="font-family:poppins; color:gray;">Last updated: 09 Nov 2020</small>
+            <p class="ic-header">Purchase</p>
+            <hr>
+            <p class="main-text">Purchase the coolors by pressing <span class="text-green"> green </span> button on top-right of your screen. </p>
+          </div>
+          <div class="col-12" id="whatyouwillget">
+            <p class="ic-header">What you will get ?</p>
+            <hr>
+            <p class="main-text">
+              After purchasing you can download the pakages from your <a href="https://codecanyon.net/downloads" target="_blank">Envato downloads page</a>.
+              After extracting the package you will get One .zip folder of current version of the project And one Docs folder.
+              <ul class="list-items">
+                <li>Coolors_source_code (.zip)(Full xcode project)</li>
+                <li>Coolors Docs (Folder)(Proper documentation, offline docs)</li>
+              </ul>
+            </p>
+          </div>
+
+          <!-- Xcode Modification start -->
+          <div class="col-12" id="mobileside">
+            <p class="ic-header">Xcode Modifications</p>
+            <hr>
+            <p class="ic-subheader">Installation</p>
+            <p class="main-text">
+                <span class="text-bold">How to setup coolors in Xcode?&nbsp;</span>follow these steps
+                <ul class="list-items">
+                  <li>Extract <span class="text-bold">Coolors_source_code</span> .zip Folder, you will get <span class="text-bold">coolors folder </span>, it contains these folders and files shown below.
+                    <br><br><img src="https://imgur.com/PJfLbF6.png" width="70%"> <br><br>
+                  </li>
+                  <li>Open <span class="text-bold">coolors.xcworkspace</span> in XCode.</li>
+                  <li>Go to general setings and add your display name, bundle identifier and manage your certificates.
+                    <br><br><img src="https://imgur.com/gnNu8Ew.png" width="80%">
+                    <img src="https://imgur.com/QkhGtzC.png" width="80%"> <br><br>
+                  </li>
+                  <li>Now go to the <span class="text-bold">constants.swift</span> file to change the configurations as per your wants. Look at the structure below.
+                    <br><br><img src="https://imgur.com/1lZa3vf.png" width="40%"> <br><br>
+                  </li>
+                  <li>Change your APP NAME as per your requirements.</li>
+                  <li>Change the value of <span class="text-bold"> showAds </span> constant to <span class="text-bold text-green"> True </span>if you want to show ads and <span class="text-bold text-red">False</span> if not.</li>
+                  <li>Add your Admob banner unit ID. Know how to get Admob credentials? <a href="https://www.youtube.com/watch?v=k4kz6CcTxIQ&ab_channel=MobyAppsNation" target="_blank">>Here</a></li>
+                  <li>Add your Admob Interstitial unit ID. Know how to get Admob credentials? <a href="https://www.youtube.com/watch?v=k4kz6CcTxIQ&ab_channel=MobyAppsNation" target="_blank">>Here</a></li>
+                  <br><img src="https://imgur.com/wIIcyqX.png" width="80%"> <br><br>
+                  <li>There is one final and important step. When you get your Admob credentials you will get an APP ID, you need to add that APP ID in your info plist file in the key named <span class="text-bold" >GADApplicationIdentifier</span> here. </li> App ID Format ( ca-app-pub-xxxxxxxxxxxxxxxx~xxxxxxxxxx )
+                  <br><img src="https://imgur.com/8YdfMzY.png" width="80%"> <br><br>
+                </ul>
+            </p>
+          </div>
+          <!-- Xcode Modification ends -->
+
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer" style="background:#272727; margin-bottom:0px; height:60px; text-align:center; color:#868686; font-family:avenir-light , poppins; padding:20px; font-size: 18px;">
+      Powered by dheerajdev.com
+    </div>
+  </footer>
+</body>
+</html>
